@@ -10,9 +10,9 @@ import UIKit
 
 class NewsViewController: UIViewController {
     
-    var collectionView : UICollectionView!
-    var layout = PaggedFlowLayout()
-    var news : [NewsModel] = []
+    private var collectionView : UICollectionView!
+    private var layout = PaggedFlowLayout()
+    private var news : [NewsModel] = []
     
     private var dataSource :
         NewsCollectionViewDataSource<NewsCollectionViewCell, NewsModel>!

@@ -10,8 +10,8 @@ import UIKit
 
 class IdentifiedImageView: UIImageView {
     
-    var didSetFailureLabel = false
-    var id: String?
+    private var didSetFailureLabel = false
+    var id: String? // needed for checking each image to its respectfull downloaded one 
     
     private var activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
     

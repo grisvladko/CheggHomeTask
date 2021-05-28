@@ -19,7 +19,7 @@ class NewsCollectionViewCell: UICollectionViewCell {
         return image
     }()
     
-    let titleL: UILabel = {
+    private let titleL: UILabel = {
         let label = UILabel()
         label.textColor = .black
         label.numberOfLines = 0
@@ -27,14 +27,14 @@ class NewsCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
-    let subtitleL: UILabel = {
+    private let subtitleL: UILabel = {
         let label = UILabel()
         label.textColor = .orange
         label.numberOfLines = 0
         return label
     }()
     
-    var stackView: UIStackView!
+    private var stackView: UIStackView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

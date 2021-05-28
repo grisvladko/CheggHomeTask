@@ -12,5 +12,5 @@ struct NewsModel : Hashable {
     let title: String
     let subtitle: String
     let image: String
-    let source: Constants.Datasource
+    let source: Constants.Datasource // used to determine caching lifespan
 }
